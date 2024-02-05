@@ -1,4 +1,4 @@
-import HomeContent from "../components/HomeContent";
+import HomeItem from "../components/HomeItem";
 
 const item = {
   id: "001",
@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <main>
       <div className="items-container">
-        <HomeContent item={item} />
+        <HomeItem item={item} />
       </div>
     </main>
   );
