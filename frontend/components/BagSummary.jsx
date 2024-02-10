@@ -3,7 +3,7 @@ const BagSummary = () => {
     totalItem: 5,
     totalMRP: 2600,
     totalDiscount: 400,
-    finalPayment: 2200,
+    finalPayment: 2299,
   };
 
   return (
