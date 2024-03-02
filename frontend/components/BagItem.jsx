@@ -1,8 +1,9 @@
 const BagItem = ({ item }) => {
+  console.log(item);
   return (
     <div className="bag-item-container">
       <div className="item-left-part">
-        <img className="bag-item-img" src="images/1.jpg" />
+        <img className="bag-item-img" src={item.image} />
       </div>
       <div className="item-right-part">
         <div className="company">{item.company}</div>
